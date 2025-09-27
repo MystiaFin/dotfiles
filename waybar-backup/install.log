@@ -1,8 +1,0 @@
-[19:18:00 2025-09-18] FETCHING Version 2.42.0
-[19:18:00 2025-09-18] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.42.0/spicetify-2.42.0-linux-amd64.tar.gz
-[19:18:01 2025-09-18] EXTRACTING /home/mystiafin/.spicetify/spicetify.tar.gz
-[19:18:01 2025-09-18] SETTING EXECUTABLE PERMISSIONS TO /home/mystiafin/.spicetify/spicetify
-[19:18:01 2025-09-18] REMOVING /home/mystiafin/.spicetify/spicetify.tar.gz
-[19:18:01 2025-09-18] spicetify path already set in /home/mystiafin/.zshrc, continuing...
-[19:18:01 2025-09-18] spicetify v2.42.0 was installed successfully to /home/mystiafin/.spicetify
-[19:18:01 2025-09-18] Run 'spicetify --help' to get started
