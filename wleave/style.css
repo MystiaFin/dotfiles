@@ -1,0 +1,115 @@
+/**
+ * Catppuccin Mocha theme for wleave with equal button sizes
+ * Based on your Waybar color scheme
+ */
+window {
+    background-color: rgba(17, 17, 27, 0.95); /* crust with higher opacity */
+}
+
+button {
+    /* Fixed dimensions for equal sizes */
+    width: 180px;
+    height: 80px;
+    min-width: 180px;
+    min-height: 80px;
+    max-width: 180px;
+    max-height: 80px;
+    
+    color: #cdd6f4; /* text */
+    background-color: #000; /* base - matching your waybar */
+    border: 2px solid #313244; /* surface0 */
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+    
+    /* Center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button label.action-name {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+button label.keybind {
+    font-size: 14px;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+    opacity: 0.7;
+    text-align: center;
+    background-color: #313244; /* surface0 - darker than button bg */
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+button:hover label.keybind,
+button:focus label.keybind {
+    opacity: 1;
+    background-color: #45475a; /* surface1 */
+}
+
+/* Hover/focus states */
+button:focus,
+button:hover {
+    background-color: #313244; /* surface0 */
+    border-color: #45475a; /* surface1 */
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Active state */
+button:active {
+    color: #1e1e2e; /* base */
+    transform: translateY(0px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Individual buttons with Catppuccin accents - matching your waybar colors */
+button#lock {
+    color: #f9e2af; /* yellow */
+    border-radius: 40px 0px 0px 40px; /* rounded left side only */
+}
+button#lock:active {
+    background-color: #f9e2af; /* yellow */
+}
+
+button#hibernate {
+    color: #89b4fa; /* blue */
+}
+button#hibernate:active {
+    background-color: #89b4fa; /* blue */
+}
+
+button#logout {
+    color: #fab387; /* peach */
+}
+button#logout:active {
+    background-color: #fab387; /* peach */
+}
+
+button#shutdown {
+    color: #f38ba8; /* red */
+}
+button#shutdown:active {
+    background-color: #f38ba8; /* red */
+}
+
+button#suspend {
+    color: #cba6f7; /* mauve */
+}
+button#suspend:active {
+    background-color: #cba6f7; /* mauve */
+}
+
+button#reboot {
+    color: #a6e3a1; /* green */
+    border-radius: 0px 40px 40px 0px; /* rounded right side only */
+}
+button#reboot:active {
+    background-color: #a6e3a1; /* green */
+}
