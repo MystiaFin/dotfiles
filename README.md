@@ -1,1 +1,1 @@
-pretty much my condig for my arch
+pretty much my config for my arch
