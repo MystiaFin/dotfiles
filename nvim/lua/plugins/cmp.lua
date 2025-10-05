@@ -1,6 +1,7 @@
 return {
   {
     'L3MON4D3/LuaSnip',
+    event = "BufRead",
     dependencies = {
       'saadparwaiz1/cmp_luasnip',
       'rafamadriz/friendly-snippets',
@@ -8,13 +9,14 @@ return {
   },
   {
     'hrsh7th/nvim-cmp',
+    event = "BufRead",
     config = function()
-      local cmp = require'cmp'
+      local cmp = require 'cmp'
       require("luasnip.loaders.from_vscode").load()
       cmp.setup {
         snippet = {
           expand = function(args)
-            require'luasnip'.lsp_expand(args.body)
+            require 'luasnip'.lsp_expand(args.body)
           end,
         },
         mapping = {

@@ -1,5 +1,6 @@
 return {
   "karb94/neoscroll.nvim",
+  event = "BufRead";
   opts = {},
   config = function()
     require('neoscroll').setup({
@@ -19,7 +20,7 @@ return {
       post_hook = nil,
       performance_mode = false,
       ignored_events = {
-          'WinScrolled', 'CursorMoved'
+        'WinScrolled', 'CursorMoved'
       },
     })
   end,
