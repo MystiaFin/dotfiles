@@ -1,14 +1,11 @@
 return {
   "karb94/neoscroll.nvim",
-  event = "BufRead";
+  event = "BufRead",
   opts = {},
   config = function()
     require('neoscroll').setup({
       mappings = {
         '<C-u>', '<C-d>',
-        '<C-b>', '<C-f>',
-        '<C-y>', '<C-e>',
-        'zt', 'zz', 'zb',
       },
       hide_cursor = false,
       stop_eof = true,
