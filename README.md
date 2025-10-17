@@ -1,2 +1,2 @@
-pretty much my config for my arch
+pretty much my config for my arch<br/>
 THIS CONFIG IS NOT REPRODUCABLE IN DIFFERENT MACHINE AS THIS IS NOT NIXOS
