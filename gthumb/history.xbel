@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/mystiafin/Downloads" added="2026-04-04T05:27:49.793790Z" modified="2026-04-04T05:27:49.793799Z" visited="2026-04-04T05:27:49.793794Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-04-04T05:27:49.793797Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
