@@ -3,11 +3,21 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/mystiafin/Downloads" added="2026-04-04T05:27:49.793790Z" modified="2026-04-04T05:27:49.793799Z" visited="2026-04-04T05:27:49.793794Z">
+  <bookmark href="file:///home/mystiafin/Pictures" added="2026-04-09T05:44:42.515959Z" modified="2026-04-09T05:44:42.515969Z" visited="2026-04-09T05:44:42.515961Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-04-04T05:27:49.793797Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-04-09T05:44:42.515967Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mystiafin/Downloads" added="2026-04-09T05:44:42.515971Z" modified="2026-04-09T05:44:42.515977Z" visited="2026-04-09T05:44:42.515972Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-04-09T05:44:42.515973Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>
