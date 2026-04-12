@@ -37,3 +37,5 @@ set -g fish_color_autosuggestion 6c7086
 if type -q direnv
     direnv hook fish | source
 end
+
+fish_add_path /home/mystiafin/.spicetify
