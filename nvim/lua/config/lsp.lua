@@ -7,6 +7,8 @@ require("mason-lspconfig").setup({
 		"html",
 		"cssls",
 		"tailwindcss",
+		"svelte",
+		"ts_ls"
 	}
 })
 

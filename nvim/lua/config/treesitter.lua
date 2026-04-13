@@ -8,6 +8,7 @@ require("nvim-treesitter.configs").setup({
 					"json",
 					"tsx",
 					"php",
+					"svelte",
 				},
 				highlight = {
 					enable = true,

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 autologin.blob="QDZE9btWQlP8zRfNuU2K96jA25pbRfLuIfY+kVNkHuDGbpgZI8c1qWqijVPaVAhHlmvtxE3mi8fjb5rjJqw49MWZZB1ewv/0bHfd3NuKrqbujZYpWF9NR2Pv9njdrkg7XQkSM+buJCvPsfuiFC7XWvdsuFI5OfEvGzjbx1oty1pgsKe2ld+woBykFZN9IrztHQeDSxkCBmSU0FrVsLuD9ckNdfdqi9XrCPFrWBaJrRZb1HKONuQKiVueUk8cG4zTL1WsCOJfJpaqp/W1tP98Q/90QuQrCuuegP9zqEqSsLw="
 autologin.canonical_username="njgya226p11lnl6m5ywtiuyi7"
 autologin.saved_credentials="{\"njgya226p11lnl6m5ywtiuyi7\":[\"njgya226p11lnl6m5ywtiuyi7\",\"QDZE9btWQlP8zRfNuU2K96jA25pbRfLuIfY+kVNkHuDGbpgZI8c1qWqijVPaVAhHlmvtxE3mi8fjb5rjJqw49MWZZB1ewv/0bHfd3NuKrqbujZYpWF9NR2Pv9njdrkg7XQkSM+buJCvPsfuiFC7XWvdsuFI5OfEvGzjbx1oty1pgsKe2ld+woBykFZN9IrztHQeDSxkCBmSU0FrVsLuD9ckNdfdqi9XrCPFrWBaJrRZb1HKONuQKiVueUk8cG4zTL1WsCOJfJpaqp/W1tP98Q/90QuQrCuuegP9zqEqSsLw=\"]}"
@@ -11,3 +12,19 @@ app.window.state=2
 app.window.position.saved=true
 app.window.position.height=812
 app.last-launched-version="1.2.84.476.ga1ff6607"
+=======
+autologin.username="njgya226p11lnl6m5ywtiuyi7"
+autologin.saved_credentials="{\"njgya226p11lnl6m5ywtiuyi7\":[\"njgya226p11lnl6m5ywtiuyi7\",\"M2OgeS6gBtOSplwUCp8GfA/6d6/wQrMd61VtHc5GsHg0ZAO5r+/R7PiwF9MJMJK/jqVUnnIpO2OcsqGNhbWrb3aVR0gvbwr5wYWuruR1izvNroAIhHOubQRbfnoNl0UGzvjXpAB6c1SqbHHI7fXJssOjsCtelx47YAFFzFaLRKF3uyI6RZqvtKr5KTltaLSxPpdveJkPnWeneyxluNi4XuVTgZXB2/Oi3gyoyE+24NWtYzhk0nR+BdJDN8o63befZbwmqEuELQw97qfKXn4PeywcvT2lPqWGilVZu8ZjnHE=\"]}"
+autologin.canonical_username="njgya226p11lnl6m5ywtiuyi7"
+autologin.blob="M2OgeS6gBtOSplwUCp8GfA/6d6/wQrMd61VtHc5GsHg0ZAO5r+/R7PiwF9MJMJK/jqVUnnIpO2OcsqGNhbWrb3aVR0gvbwr5wYWuruR1izvNroAIhHOubQRbfnoNl0UGzvjXpAB6c1SqbHHI7fXJssOjsCtelx47YAFFzFaLRKF3uyI6RZqvtKr5KTltaLSxPpdveJkPnWeneyxluNi4XuVTgZXB2/Oi3gyoyE+24NWtYzhk0nR+BdJDN8o63befZbwmqEuELQw97qfKXn4PeywcvT2lPqWGilVZu8ZjnHE="
+app.window.state.saved=true
+app.window.position.width=1354
+es.send-on-startup=true
+core.clock_delta=0
+storage.last-location="/home/mystiafin/.cache/spotify/Storage"
+app.window.position.x=6
+app.window.position.saved=true
+app.window.position.height=716
+app.window.position.y=46
+app.last-launched-version="1.2.86.502.g8cd7fb22"
+>>>>>>> dcdfea1 (commit)
