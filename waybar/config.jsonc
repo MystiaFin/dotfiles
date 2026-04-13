@@ -26,7 +26,7 @@
     "custom/arch": {
         "format": "  ",
         "tooltip": false,
-        "on-click": "wleave"
+        "on-click": "wlogout"
     },
     
 		"sway/workspaces": {
