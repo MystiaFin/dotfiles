@@ -89,7 +89,7 @@
     "pulseaudio": {
         "format": "<span size='120%'>{icon} </span> {volume}%",
         "format-bluetooth": "<span size='120%'>{icon}</span> {volume}%",
-        "format-muted": "<span size='150%'>󰝟 </span>",
+        "format-muted": "<span size='150%'>󰝟</span>",
         "tooltip": false,
         "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
         "on-scroll-up": "wpctl set-volume @DEFAULT_SINK@ 5%+",
@@ -107,8 +107,8 @@
 
     "pulseaudio#microphone": {
       "format": "{format_source}",
-      "format-source": "<span color='#f38ba8'>  </span><span color='#cdd6f4'>{volume}%</span>",
-      "format-source-muted": "  ",
+      "format-source": "<span color='#f38ba8'> </span><span color='#cdd6f4'>{volume}%</span>",
+      "format-source-muted": " ",
       "on-click": "wpctl set-mute @DEFAULT_SOURCE@ toggle",
       "on-scroll-up": "wpctl set-volume @DEFAULT_SOURCE@ 5%+",
       "on-scroll-down": "wpctl set-volume @DEFAULT_SOURCE@ 5%-"
