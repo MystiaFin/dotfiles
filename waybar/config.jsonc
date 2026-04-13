@@ -9,7 +9,6 @@
     "modules-left": [
         "custom/arch",
         "sway/workspaces",
-        "sway/window"
     ],
     "modules-center": [
         "mpris"
@@ -25,7 +24,7 @@
     ],
 
     "custom/arch": {
-        "format": "",
+        "format": "  ",
         "tooltip": false,
         "on-click": "wleave"
     },

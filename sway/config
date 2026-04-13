@@ -98,5 +98,18 @@ bindsym $mod+r mode "resize"
 
 include /etc/sway/config.d/*
 
-default_border pixel 1
+default_border pixel 2
 for_window [app_id="nemo"] floating enable
+for_window [app_id="blueman-manager"] floating enable
+
+gaps inner 4
+
+set $env XCURSOR_THEME catppuccin-mocha-dark-cursors
+set $env XCURSOR_SIZE 24
+
+exec_always {
+    gsettings set org.gnome.desktop.interface cursor-theme catppuccin-mocha-dark-cursors
+    gsettings set org.gnome.desktop.interface cursor-size 24
+}
+
+seat seat0 xcursor_theme catppuccin-mocha-dark-cursors 24

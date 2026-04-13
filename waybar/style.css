@@ -1,126 +1,131 @@
 * {
-    border: none;
-    border-radius: 0;
-    font-family: "JetBrainsMono Nerd Font", FontAwesome, sans-serif;
-    font-size: 14px;
-    min-height: 0;
+	border: none;
+	font-family: "JetBrainsMono Nerd Font", FontAwesome, sans-serif;
+	font-size: 14px;
+	min-height: 0;
 }
 
 window#waybar {
-    background-color: #1E1E2E;
-    color: #CDD6F4;
-    transition-property: background-color;
-    transition-duration: .5s;
+	background-color: transparent;
+	color: #CDD6F4;
+	transition-property: background-color;
+	transition-duration: .5s;
 }
 
-#custom-arch {
-    margin-left: 20px;
-}
-
+/* ── Shared module pill style ── */
+#custom-arch,
+#workspaces,
 #mpris,
+#pulseaudio,
+#pulseaudio.microphone,
 #tray,
 #bluetooth,
 #battery,
+#clock.time,
+#clock.date {
+	background-color: #292c3c;
+	border: 1px solid #8caaee;
+	margin-top: 4px;
+}
+
+/* ── Per-module spacing & overrides ── */
+#custom-arch {
+	margin-left: 4px;
+	margin-right: 4px;
+	padding-left: 6px;
+	padding-right: 12px;
+	font-size: 14px;
+	min-width: 28px;
+	min-height: 28px;
+}
+
 #workspaces {
-    background-color: #292c3c;
-    border-radius: 9999px;
-    margin-left: 20px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-right: 10px
+	margin-left: 8px;
+	margin-right: 4px;
+	padding: 0 4px;
 }
 
 #workspaces button {
-    color: #CDD6F4;
-    border-radius: 9999px;
-    transition: all 0.3s ease;
-    padding: 8;
-    padding-left: 10;
-    padding-top: 2px;
-    padding-bottom: 2px;
+	color: #CDD6F4;
+	transition: all 0.3s ease;
+	min-width: 28px;
+	min-height: 28px;
+	padding: 0;
+	margin-left: 4px;
 }
 
 #workspaces button.active {
-    background-color: #e5c890;
-    color: #1E1E2E;
+	background-color: #8caaee;
+	color: #1E1E2E;
+	min-width: 42px;
 }
 
 #workspaces button:hover {
-    background-color: #585b70;
+	background-color: #585b70;
 }
 
 #mpris {
-  min-height: 24px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-#tray {
-  padding: 0;
-  padding-left: 10px;
-  margin: 0;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  border-radius: 9999px 0 0 9999px;
-}
-
-#bluetooth {
-  padding: 0px;
-  padding-left: 15px;
-  padding-right: 5px;
-  margin: 0;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  border-radius: 0;
-}
-
-#battery {
-  padding: 0 10px;
-  margin: 0;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  border-radius: 0 9999px 9999px 0;
-}
-
-#clock.time {
-    background-color: #ef9f76;
-    color: #303446;
-    border-radius: 9999px 0 0 9999px;
-    margin-left: 10px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding: 0 10px;
-}
-
-#clock.date {
-    background-color: #8caaee;
-    color: #303446;
-    border-radius: 0 9999px 9999px 0;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding: 0 10px;
-    margin-right: 10px
+	margin-left: 8px;
+	margin-right: 8px;
+	padding: 0 16px;
+	min-height: 24px;
 }
 
 #pulseaudio {
-  background-color: #292c3c;
-  border-radius: 9999px;
-  margin-left: 20px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
+	margin-left: 8px;
+	margin-right: 4px;
+	padding: 0 12px;
 }
 
 #pulseaudio.microphone {
-  background-color: #292c3c;
-  border-radius: 9999px;
-  margin-left: 5px;
-  margin-right: 8px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 12px;
+	margin-left: 4px;
+	margin-right: 8px;
+	padding: 0 10px;
+}
+
+#tray {
+	margin-left: 8px;
+	margin-right: 4px;
+	padding: 0 10px;
+}
+
+#bluetooth {
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 0 12px;
+}
+
+#battery {
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 0 12px;
+}
+
+#clock.time {
+	background-color: #292c3c;
+	color: #CDD6F4;
+	border: 1px solid #8caaee;
+	border-right: none;
+	margin-left: 4px;
+	margin-right: 0;
+	padding: 0 12px;
+}
+
+#clock.date {
+	background-color: #292c3c;
+	color: #CDD6F4;
+	border: 1px solid #8caaee;
+	border-left: none;
+	margin-left: 0;
+	margin-right: 4px;
+	padding: 0 12px;
+}
+
+/* ── Battery states ── */
+#battery.warning {
+	color: #e5c890;
+}
+
+#battery.critical {
+	color: #e78284;
 }
