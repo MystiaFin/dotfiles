@@ -107,7 +107,7 @@
 
     "pulseaudio#microphone": {
       "format": "{format_source}",
-      "format-source": "<span color='#f38ba8'> </span><span color='#cdd6f4'>{volume}%</span>",
+      "format-source": "<span color='#f38ba8'> </span><span>{volume}%</span>",
       "format-source-muted": " ",
       "on-click": "wpctl set-mute @DEFAULT_SOURCE@ toggle",
       "on-scroll-up": "wpctl set-volume @DEFAULT_SOURCE@ 5%+",

@@ -37,6 +37,7 @@ window#waybar {
 	font-size: 14px;
 	min-width: 28px;
 	min-height: 28px;
+	color: #89b4fa;
 }
 
 #workspaces {
@@ -73,25 +74,23 @@ window#waybar {
 
 #pulseaudio {
 	margin-left: 8px;
-	margin-right: 4px;
 	padding: 0 12px;
+	color: #a6e3a1;
 }
 
-#pulseaudio.microphone {
-	margin-left: 4px;
+#pulseaudio#microphone {
 	margin-right: 4px;
 	padding: 0 10px;
+	color: #f38ba8;
 }
 
 #tray {
 	margin-left: 4px;
-	margin-right: 4px;
 	padding: 0 10px;
 }
 
 #bluetooth {
 	margin-left: 4px;
-	margin-right: 4px;
 	padding: 0 12px;
 }
 
@@ -103,7 +102,7 @@ window#waybar {
 
 #clock.time {
 	background-color: #292c3c;
-	color: #CDD6F4;
+	color: #f38ba8;
 	border: 1px solid #8caaee;
 	border-right: none;
 	margin-left: 4px;
@@ -113,7 +112,7 @@ window#waybar {
 
 #clock.date {
 	background-color: #292c3c;
-	color: #CDD6F4;
+	color: #f9e2af;
 	border: 1px solid #8caaee;
 	border-left: none;
 	margin-left: 0;
