@@ -8,8 +8,8 @@
     "margin-right": 0,
     "modules-left": [
         "custom/arch",
-        "hyprland/workspaces",
-        "hyprland/window"
+        "sway/workspaces",
+        "sway/window"
     ],
     "modules-center": [
         "mpris"
@@ -29,17 +29,16 @@
         "tooltip": false,
         "on-click": "wleave"
     },
-    "hyprland/workspaces": {
+    
+		"sway/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
             "default": " ",
-            "active": " "
-        },
-        "persistent_workspaces": {
-            "*": 9
+            "focused": " " 
         }
     },
+    
     "mpris": {
         "format": "{player_icon} {title} - {artist}",
         "format-stopped": "No music playing",
@@ -53,9 +52,10 @@
         "on-scroll-up": "playerctl next",
         "on-scroll-down": "playerctl previous"
     },
+    
     "tray": {
         "icon-size": 18,
-        "spacing": 10,
+        "spacing": 10
     },
 
     "clock#time": {
@@ -79,7 +79,6 @@
         "format-icons": [" ", " ", " ", " ", " "]
     },
 
-
     "bluetooth": {
         "format": "<span size='125%'></span>",
         "format-disabled": "",
@@ -88,17 +87,14 @@
         "tooltip-format": "{device_enumerate}"
     },
 
-
     "pulseaudio": {
         "format": "<span size='120%'>{icon} </span> {volume}%",
         "format-bluetooth": "<span size='120%'>{icon}</span> {volume}%",
         "format-muted": "<span size='150%'>󰝟 </span>",
         "tooltip": false,
-
         "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
         "on-scroll-up": "wpctl set-volume @DEFAULT_SINK@ 5%+",
         "on-scroll-down": "wpctl set-volume @DEFAULT_SINK@ 5%-",
-
         "format-icons": {
           "headphone": "",
           "hands-free": "",
