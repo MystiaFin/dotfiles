@@ -8,7 +8,8 @@ require("mason-lspconfig").setup({
 		"cssls",
 		"tailwindcss",
 		"svelte",
-		"ts_ls"
+		"ts_ls",
+		"nil_ls"
 	}
 })
 
@@ -85,7 +86,7 @@ vim.lsp.enable({
 	"html",
 	"cssls",
 	"tailwindcss",
-	"qmlls"
+	"qmlls",
 })
 
 vim.filetype.add({
