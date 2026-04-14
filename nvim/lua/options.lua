@@ -33,3 +33,15 @@ vim.keymap.set('n', "<leader>n", ":Neorg workspace notes<CR>")
 
 vim.o.winborder = "rounded"
 
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "markdown",
+  callback = function(ev)
+    local ok, parser = pcall(vim.treesitter.get_parser, ev.buf, "markdown")
+    if ok and parser then
+      parser:set_included_regions({})
+      parser:for_each_child(function(child)
+        child:invalidate()
+      end)
+    end
+  end,
+})
