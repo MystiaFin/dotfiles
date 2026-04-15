@@ -1,0 +1,47 @@
+14:43:57.524: Platform: Wayland
+14:43:57.524: CPU Name: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+14:43:57.524: CPU Speed: 2195.350MHz
+14:43:57.524: Physical Cores: 2, Logical Cores: 4
+14:43:57.524: Physical Memory: 7811MB Total, 1397MB Free
+14:43:57.524: Kernel Version: Linux 6.19.11-zen1-1-zen
+14:43:57.524: Distribution: "Arch Linux" Unknown
+14:43:57.524: Desktop Environment: sway:wlroots (sway:wlroots)
+14:43:57.524: Session Type: wayland
+14:43:57.527: Current Date/Time: 2026-04-15, 02:43:57 PM
+14:43:57.527: Browser Hardware Acceleration: true
+14:43:57.527: Qt Version: 6.10.2 (runtime), 6.10.2 (compiled)
+14:43:57.527: Portable mode: false
+14:43:58.011: OBS 32.0.1 (linux)
+14:43:58.011: ---------------------------------
+14:43:58.013: ---------------------------------
+14:43:58.013: audio settings reset:
+14:43:58.013: 	samples per sec: 48000
+14:43:58.013: 	speakers:        2
+14:43:58.013: 	max buffering:   960 milliseconds
+14:43:58.013: 	buffering type:  dynamically increasing
+14:43:58.018: ---------------------------------
+14:43:58.018: Initializing OpenGL...
+14:43:58.018: Using EGL/Wayland
+14:43:58.022: eglGetDisplay failed
+14:43:58.022: device_create (GL) failed
+14:43:58.023: Failed to initialize video.  Your GPU may not be supported, or your graphics drivers may need to be updated.
+14:43:58.165: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+14:44:03.091: Freeing OBS context data
+14:44:03.115: == Profiler Results =============================
+14:44:03.115: run_program_init: 13071.5 ms
+14:44:03.115:  ┣OBSApp::AppInit: 40.801 ms
+14:44:03.115:  ┃ ┗OBSApp::InitLocale: 7.546 ms
+14:44:03.115:  ┗OBSApp::OBSInit: 499.492 ms
+14:44:03.115:    ┣obs_startup: 2.819 ms
+14:44:03.115:    ┗OBSBasic::OBSInit: 11.528 ms
+14:44:03.115:      ┣OBSBasic::InitBasicConfig: 1.751 ms
+14:44:03.115:      ┣OBSBasic::ResetAudio: 0.183 ms
+14:44:03.115:      ┗OBSBasic::ResetVideo: 8.762 ms
+14:44:03.115:        ┗obs_init_graphics: 8.754 ms
+14:44:03.115: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.001 ms, 99th percentile=0.001 ms, 100% below 25 ms
+14:44:03.115: audio_thread(Audio): min=0.015 ms, median=0.037 ms, max=0.075 ms, 99th percentile=0.061 ms
+14:44:03.115: =================================================
+14:44:03.115: == Profiler Time Between Calls ==================
+14:44:03.115: obs_hotkey_thread(25 ms): min=25.018 ms, median=25.049 ms, max=25.18 ms, 100% within ±2% of 25 ms (0% lower, 0% higher)
+14:44:03.115: =================================================
+14:44:03.116: Number of memory leaks: 580

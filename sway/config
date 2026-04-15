@@ -5,8 +5,9 @@ set $up k
 set $right l
 set $term foot
 set $menu fuzzel
+set $project_launcher $HOME/.config/scripts/project-launcher.sh
 
-output * bg /home/mystiafin/.config/quickshell/Wallpapers/wallpaper_2.jpg fill
+output * bg $HOME/.config/quickshell/Wallpapers/wallpaper_2.jpg fill
 
 exec waybar
 exec nm-applet
@@ -14,6 +15,7 @@ exec nm-applet
     bindsym $mod+Return exec $term
     bindsym $mod+q kill
     bindsym Control+space exec $menu
+		bindsym $mod+Shift+p exec $project_launcher
     floating_modifier $mod normal
     bindsym $mod+Shift+c reload
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'

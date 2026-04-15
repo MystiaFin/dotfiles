@@ -1,0 +1,90 @@
+@import "~/.config/rofi/catppuccin-mocha.rasi"
+
+* {
+    font: "JetBrainsMono Nerd Font 11";
+
+    bg:          @crust;
+    bg-alt:      @mantle;
+    bg-select:   @surface0;
+    fg:          @text;
+    fg-muted:    @overlay1;
+    accent:      @mauve;
+    border-col:  @blue;
+}
+
+window {
+    background-color: @bg;
+    border:           2px;
+    border-color:     @border-col;
+    width:            400px;
+    padding:          0px;
+}
+
+mainbox {
+    background-color: transparent;
+    children:         [ inputbar, listview ];
+    spacing:          0px;
+    padding:          0px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    text-color:       @fg;
+    padding:          10px 12px;
+    border:           0px 0px 1px 0px;
+    border-color:     @border-col;
+    children:         [ prompt, entry ];
+    spacing:          8px;
+}
+
+prompt {
+    background-color: transparent;
+    text-color:       @accent;
+    padding:          0px;
+}
+
+entry {
+    background-color: transparent;
+    text-color:       @fg;
+    placeholder:      "type to filter...";
+    placeholder-color: @fg-muted;
+    cursor:           text;
+}
+
+listview {
+    background-color: transparent;
+    padding:          6px;
+    spacing:          2px;
+    lines:            8;
+    columns:          1;
+    scrollbar:        false;
+    border:           0px;
+}
+
+element {
+    background-color: transparent;
+    text-color:       @fg;
+    padding:          7px 10px;
+    spacing:          0px;
+    border:           0px;
+}
+
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+element.normal.normal {
+    background-color: transparent;
+    text-color:       @fg;
+}
+
+element.selected.normal {
+    background-color: @bg-select;
+    text-color:       @accent;
+}
+
+element.alternate.normal {
+    background-color: transparent;
+    text-color:       @fg;
+}

@@ -24,7 +24,6 @@
     tmux
     nemo
     fish
-    obs-studio
     nwg-clipman
     nwg-look
     btop
