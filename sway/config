@@ -11,6 +11,8 @@ output * bg $HOME/.config/quickshell/Wallpapers/wallpaper_2.jpg fill
 
 exec waybar
 exec nm-applet
+exec papersway
+exec $HOME/.config/scripts/tmux-boot.sh
 
     bindsym $mod+Return exec $term
     bindsym $mod+q kill
@@ -19,10 +21,8 @@ exec nm-applet
     floating_modifier $mod normal
     bindsym $mod+Shift+c reload
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
-    bindsym $mod+$left focus left
-    bindsym $mod+$down focus down
-    bindsym $mod+$up focus up
-    bindsym $mod+$right focus right
+		bindsym $mod+$left exec papersway-msg focus left
+		bindsym $mod+$right exec papersway-msg focus right
     bindsym $mod+Left focus left
     bindsym $mod+Down focus down
     bindsym $mod+Up focus up
