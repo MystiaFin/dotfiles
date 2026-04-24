@@ -17,7 +17,7 @@ vim.pack.add({
 	{ src = "https://github.com/stevearc/oil.nvim" },
 	{ src = "https://github.com/neovim/nvim-lspconfig" },
 	{ src = "https://github.com/nvim-telescope/telescope.nvim" },
-	{ src = "https://github.com/neovim-treesitter/nvim-treesitter" },
+	{ src = "https://github.com/neovim-treesitter/nvim-treesitter", branch = "main" },
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
 	{ src = "https://github.com/andweeb/presence.nvim" },
 	{ src = "https://github.com/windwp/nvim-autopairs" },

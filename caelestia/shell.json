@@ -1,0 +1,13 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
+    "border": {
+        "rounding": 25
+    },
+    "launcher": {
+        "vimKeybinds": true
+    }
+}
