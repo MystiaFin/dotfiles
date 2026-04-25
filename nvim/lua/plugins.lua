@@ -28,5 +28,6 @@ vim.pack.add({
 	{ src = "https://github.com/karb94/neoscroll.nvim" },
 	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
 	{ src = "https://github.com/nvimdev/dashboard-nvim" },
-	{ src = "https://github.com/lervag/vimtex" }
+	{ src = "https://github.com/lervag/vimtex" },
+	{ src = "https://github.com/chomosuke/typst-preview.nvim"}
 })

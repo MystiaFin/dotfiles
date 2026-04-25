@@ -4,6 +4,7 @@ require('options')
 -- Initialize plugins
 require("oil").setup()
 require("telescope").setup()
+require("typst-preview").setup()
 
 -- User config
 require('config/treesitter')

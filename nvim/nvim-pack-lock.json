@@ -108,6 +108,10 @@
       "rev": "3a12a853ebf21ec1cce9a92290e3013f8ae75f02",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
+    "typst-preview.nvim": {
+      "rev": "87db18b8d19c8b0eed399f52e4c527ce5afe4817",
+      "src": "https://github.com/chomosuke/typst-preview.nvim"
+    },
     "vimtex": {
       "rev": "9306903316c3ddd250676b7cf97c84a84c9c8f99",
       "src": "https://github.com/lervag/vimtex"

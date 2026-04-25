@@ -39,3 +39,4 @@ if type -q direnv
 end
 
 fish_add_path /home/mystiafin/.spicetify
+cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
