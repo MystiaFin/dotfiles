@@ -8,6 +8,14 @@
       "rev": "cdafc320f03f2572c40ab93a4eecb733d4016d07",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
+    "gruvbox-baby": {
+      "rev": "bd52e62d8134647090108189e69c8b3cd18bdbbf",
+      "src": "https://github.com/luisiacc/gruvbox-baby"
+    },
+    "gruvbox.nvim": {
+      "rev": "154eb5ff5b96d0641307113fa385eaf0d36d9796",
+      "src": "https://github.com/ellisonleao/gruvbox.nvim"
+    },
     "harpoon": {
       "rev": "3c25e74db0f3e443a07d38b92c40fee4b2332522",
       "src": "https://github.com/ThePrimeagen/harpoon"
@@ -107,6 +115,10 @@
     "telescope.nvim": {
       "rev": "3a12a853ebf21ec1cce9a92290e3013f8ae75f02",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
+    },
+    "themery.nvim": {
+      "rev": "bfa58f4b279d21cb515b28023e1b68ec908584b2",
+      "src": "https://github.com/zaldih/themery.nvim"
     },
     "typst-preview.nvim": {
       "rev": "87db18b8d19c8b0eed399f52e4c527ce5afe4817",

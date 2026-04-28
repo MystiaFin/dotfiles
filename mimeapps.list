@@ -11,6 +11,8 @@ application/x-extension-xhtml=zen.desktop
 application/x-extension-xht=zen.desktop
 x-scheme-handler/discord=vesktop.desktop
 application/pdf=org.pwmt.zathura.desktop
+inode/directory=nemo.desktop
+application/x-gnome-saved-search=nemo.desktop
 
 [Added Associations]
 x-scheme-handler/http=zen.desktop;

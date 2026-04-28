@@ -1,26 +1,28 @@
 function fish_prompt
     set -l last_status $status
 
-    # Colors
-    set -l path_blue (set_color --bold 89b4fa)
-    set -l git_red (set_color f38ba8)
-    set -l green (set_color a6e3a1)
-    set -l text (set_color cdd6f4)
+    # Standard terminal colors (adapts dynamically to your terminal theme)
+    set -l border_color (set_color brblack)    # Bright black (usually dark gray)
+    set -l path_color (set_color --bold white) # Standard bold white
+    set -l git_color (set_color yellow)        # Standard yellow
+    set -l success_color (set_color green)     # Standard green
+    set -l error_color (set_color red)         # Standard red
     set -l normal (set_color normal)
 
     # Top line
-    echo -n $text"╭─  "
-    echo -n $path_blue"["(prompt_pwd)"]"
+		echo -n ""
+    echo -n $border_color"╭─  "
+    echo -n $path_color"["(prompt_pwd)"]"
 
     # Git integration
     if type -q git
         set -l git_branch (git branch --show-current 2>/dev/null)
         
         if test -n "$git_branch"
-            echo -n $text"("$git_red$git_branch$text")"
+            echo -n $border_color"("$git_color$git_branch$border_color")"
             set -l dirty (git status --porcelain --ignore-submodules=dirty 2>/dev/null)
             if test -n "$dirty"
-               echo -n $git_red"*"$normal
+                echo -n $error_color"*"$normal
             end
         end
     end
@@ -28,11 +30,11 @@ function fish_prompt
     echo # New line
     
     # Bottom line
-    echo -n $text"╰─ "
+    echo -n $border_color"╰─ "
 
     if test $last_status -eq 0
-        echo -n $green"λ "$normal
+        echo -n $success_color"λ "$normal
     else
-        echo -n $git_red"λ "$normal
+        echo -n $error_color"λ "$normal
     end
 end

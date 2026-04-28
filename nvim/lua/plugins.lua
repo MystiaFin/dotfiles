@@ -14,10 +14,12 @@ vim.pack.add({
 
 	-- Plugins
 	{ src = "https://github.com/catppuccin/nvim" },
+	{ src = "https://github.com/ellisonleao/gruvbox.nvim" },
+	{ src = "https://github.com/luisiacc/gruvbox-baby"},
 	{ src = "https://github.com/stevearc/oil.nvim" },
 	{ src = "https://github.com/neovim/nvim-lspconfig" },
 	{ src = "https://github.com/nvim-telescope/telescope.nvim" },
-	{ src = "https://github.com/neovim-treesitter/nvim-treesitter", branch = "main" },
+	{ src = "https://github.com/neovim-treesitter/nvim-treesitter",   branch = "main" },
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
 	{ src = "https://github.com/andweeb/presence.nvim" },
 	{ src = "https://github.com/windwp/nvim-autopairs" },
@@ -29,5 +31,6 @@ vim.pack.add({
 	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
 	{ src = "https://github.com/nvimdev/dashboard-nvim" },
 	{ src = "https://github.com/lervag/vimtex" },
-	{ src = "https://github.com/chomosuke/typst-preview.nvim"}
+	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
+	{ src = "https://github.com/zaldih/themery.nvim" }
 })
