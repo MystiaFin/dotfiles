@@ -82,12 +82,14 @@ gtk-3.0/gtk.css
 gtk-3.0/gtk-dark.css
 gtk-3.0/settings.ini
 gtk-3.0/thunar.css
+gtk-4.0/thunar.css
 gtk-4.0/assets
 gtk-4.0/gtk-dark.css
 gtk-4.0/gtk.css
 gtk-4.0/settings.ini
 htop/htoprc
 hypr/scheme/current.conf
-nvim/lua/plugins.lua
 nvim/nvim-pack-lock.json
 xsettingsd/xsettingsd.conf
+zed/
+btop/
