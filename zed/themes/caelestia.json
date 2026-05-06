@@ -7,6 +7,7 @@
       "name": "Caelestia",
       "appearance": "dark",
       "style": {
+<<<<<<< Updated upstream
         "background": "#130d0a",
         "border": "#55443f40",
         "border.variant": "#55443f60",
@@ -101,9 +102,106 @@
         "terminal.ansi.magenta": "#ffaaa7",
         "terminal.ansi.bright_magenta": "#ffd3cd",
         "terminal.ansi.dim_magenta": "#ffaaa780",
+=======
+        "background": "#130c0c",
+        "border": "#55444240",
+        "border.variant": "#55444260",
+        "border.focused": "#f9b6ae",
+        "border.selected": "#f9b6ae80",
+        "border.transparent": "#00000000",
+        "border.disabled": "#55444230",
+
+        "elevated_surface.background": "#291d1b",
+        "surface.background": "#130c0c",
+
+        "element.background": "#55444240",
+        "element.hover": "#55444260",
+        "element.active": "#f9b6ae30",
+        "element.selected": "#f9b6ae20",
+        "element.disabled": "#55444220",
+
+        "drop_target.background": "#f9b6ae20",
+
+        "ghost_element.background": "#00000000",
+        "ghost_element.hover": "#55444240",
+        "ghost_element.active": "#f9b6ae30",
+        "ghost_element.selected": "#f9b6ae20",
+        "ghost_element.disabled": "#55444220",
+
+        "text": "#f9e0dd",
+        "text.muted": "#bca6a3",
+        "text.placeholder": "#84716e",
+        "text.disabled": "#84716e80",
+        "text.accent": "#f9b6ae",
+
+        "icon": "#f9e0dd",
+        "icon.muted": "#bca6a3",
+        "icon.disabled": "#55444260",
+        "icon.placeholder": "#bca6a3",
+        "icon.accent": "#f9b6ae",
+
+        "status_bar.background": "#130c0c",
+        "title_bar.background": "#130c0c",
+        "title_bar.inactive_background": "#130c0c",
+        "toolbar.background": "#130c0c",
+        "tab_bar.background": "#130c0c",
+        "tab.inactive_background": "#130c0c",
+        "tab.active_background": "#291d1b",
+
+        "search.match_background": "#ffede840",
+
+        "panel.background": "#130c0c",
+        "panel.focused_border": "#f9b6ae",
+
+        "pane.focused_border": "#f9b6ae",
+
+        "scrollbar.thumb.background": "#55444230",
+        "scrollbar.thumb.hover_background": "#55444260",
+        "scrollbar.thumb.border": "#55444220",
+        "scrollbar.track.background": "#00000000",
+        "scrollbar.track.border": "#00000000",
+
+        "editor.foreground": "#f9e0dd",
+        "editor.background": "#130c0c",
+        "editor.gutter.background": "#130c0c",
+        "editor.subheader.background": "#221716",
+        "editor.active_line.background": "#291d1b60",
+        "editor.highlighted_line.background": "#f9b6ae15",
+        "editor.line_number": "#bca6a3",
+        "editor.active_line_number": "#f9e0dd",
+        "editor.invisible": "#55444240",
+        "editor.wrap_guide": "#55444230",
+        "editor.active_wrap_guide": "#55444260",
+        "editor.document_highlight.read_background": "#f9b6ae20",
+        "editor.document_highlight.write_background": "#f9b6ae30",
+
+        "terminal.background": "#130c0c",
+        "terminal.foreground": "#f9e0dd",
+        "terminal.bright_foreground": "#f9e0dd",
+        "terminal.dim_foreground": "#bca6a3",
+        "terminal.ansi.black": "#130c0c",
+        "terminal.ansi.bright_black": "#bca6a3",
+        "terminal.ansi.dim_black": "#130c0c80",
+        "terminal.ansi.red": "#ff9793",
+        "terminal.ansi.bright_red": "#f9aaa5",
+        "terminal.ansi.dim_red": "#ff979380",
+        "terminal.ansi.green": "#ffd8c3",
+        "terminal.ansi.bright_green": "#ffdb94",
+        "terminal.ansi.dim_green": "#ffd8c380",
+        "terminal.ansi.yellow": "#ffede8",
+        "terminal.ansi.bright_yellow": "#ffbeb1",
+        "terminal.ansi.dim_yellow": "#ffede880",
+        "terminal.ansi.blue": "#ffa1be",
+        "terminal.ansi.bright_blue": "#f2b2f2",
+        "terminal.ansi.dim_blue": "#ffa1be80",
+        "terminal.ansi.magenta": "#ffa8b4",
+        "terminal.ansi.bright_magenta": "#ffd2d3",
+        "terminal.ansi.dim_magenta": "#ffa8b480",
+>>>>>>> Stashed changes
         "terminal.ansi.cyan": "#ffdb94",
-        "terminal.ansi.bright_cyan": "#e1df87",
+        "terminal.ansi.bright_cyan": "#ebd1ff",
         "terminal.ansi.dim_cyan": "#ffdb9480",
+<<<<<<< Updated upstream
         "terminal.ansi.white": "#f9e0d9",
         "terminal.ansi.bright_white": "#f9e0d9",
         "terminal.ansi.dim_white": "#f9e0d980",
@@ -129,19 +227,53 @@
         "hidden": "#84716b",
         "hidden.background": "#84716b15",
         "hidden.border": "#84716b",
+=======
+        "terminal.ansi.white": "#f9e0dd",
+        "terminal.ansi.bright_white": "#f9e0dd",
+        "terminal.ansi.dim_white": "#f9e0dd80",
+
+        "link_text.hover": "#f9b6ae",
+
+        "conflict": "#ffede8",
+        "conflict.background": "#ffede815",
+        "conflict.border": "#ffede8",
+
+        "created": "#ffd8c3",
+        "created.background": "#ffd8c315",
+        "created.border": "#ffd8c3",
+
+        "deleted": "#ff9793",
+        "deleted.background": "#ff979315",
+        "deleted.border": "#ff9793",
+
+        "error": "#f97386",
+        "error.background": "#f9738615",
+        "error.border": "#f97386",
+
+        "hidden": "#84716e",
+        "hidden.background": "#84716e15",
+        "hidden.border": "#84716e",
+>>>>>>> Stashed changes
 
         "hint": "#B5CCBA",
         "hint.background": "#B5CCBA15",
         "hint.border": "#B5CCBA",
 
+<<<<<<< Updated upstream
         "ignored": "#84716b",
         "ignored.background": "#84716b15",
         "ignored.border": "#84716b",
+=======
+        "ignored": "#84716e",
+        "ignored.background": "#84716e15",
+        "ignored.border": "#84716e",
+>>>>>>> Stashed changes
 
-        "info": "#ffa2bd",
-        "info.background": "#ffa2bd15",
-        "info.border": "#ffa2bd",
+        "info": "#ffa1be",
+        "info.background": "#ffa1be15",
+        "info.border": "#ffa1be",
 
+<<<<<<< Updated upstream
         "modified": "#ffbfa6",
         "modified.background": "#ffbfa615",
         "modified.border": "#ffbfa6",
@@ -149,6 +281,15 @@
         "predictive": "#bca69f",
         "predictive.background": "#bca69f15",
         "predictive.border": "#55443f40",
+=======
+        "modified": "#ffbeb1",
+        "modified.background": "#ffbeb115",
+        "modified.border": "#ffbeb1",
+
+        "predictive": "#bca6a3",
+        "predictive.background": "#bca6a315",
+        "predictive.border": "#55444240",
+>>>>>>> Stashed changes
 
         "renamed": "#ffdb94",
         "renamed.background": "#ffdb9415",
@@ -158,6 +299,7 @@
         "success.background": "#B5CCBA15",
         "success.border": "#B5CCBA",
 
+<<<<<<< Updated upstream
         "unreachable": "#84716b",
         "unreachable.background": "#84716b15",
         "unreachable.border": "#84716b",
@@ -171,6 +313,21 @@
             "cursor": "#f9e0d9",
             "selection": "#f9e0d960",
             "background": "#f9b7a1"
+=======
+        "unreachable": "#84716e",
+        "unreachable.background": "#84716e15",
+        "unreachable.border": "#84716e",
+
+        "warning": "#ffede8",
+        "warning.background": "#ffede815",
+        "warning.border": "#ffede8",
+
+        "players": [
+          {
+            "cursor": "#f9e0dd",
+            "selection": "#f9e0dd60",
+            "background": "#f9b6ae"
+>>>>>>> Stashed changes
           },
           {
             "cursor": "#ffdb94",
@@ -178,6 +335,7 @@
             "background": "#ffdb94"
           },
           {
+<<<<<<< Updated upstream
             "cursor": "#ffd3cd",
             "selection": "#ffd3cd40",
             "background": "#ffd3cd"
@@ -196,72 +354,138 @@
             "cursor": "#ff9882",
             "selection": "#ff988240",
             "background": "#ff9882"
+=======
+            "cursor": "#ffd2d3",
+            "selection": "#ffd2d340",
+            "background": "#ffd2d3"
           },
           {
-            "cursor": "#ffa2bd",
-            "selection": "#ffa2bd40",
-            "background": "#ffa2bd"
+            "cursor": "#ffede8",
+            "selection": "#ffede840",
+            "background": "#ffede8"
           },
           {
+            "cursor": "#ffd8c3",
+            "selection": "#ffd8c340",
+            "background": "#ffd8c3"
+          },
+          {
+            "cursor": "#ff9793",
+            "selection": "#ff979340",
+            "background": "#ff9793"
+>>>>>>> Stashed changes
+          },
+          {
+            "cursor": "#ffa1be",
+            "selection": "#ffa1be40",
+            "background": "#ffa1be"
+          },
+          {
+<<<<<<< Updated upstream
             "cursor": "#faab98",
             "selection": "#faab9840",
             "background": "#faab98"
+=======
+            "cursor": "#f9aaa5",
+            "selection": "#f9aaa540",
+            "background": "#f9aaa5"
+>>>>>>> Stashed changes
           }
         ],
 
         "syntax": {
           "attribute": {
+<<<<<<< Updated upstream
             "color": "#ffeee6",
+=======
+            "color": "#ffede8",
+>>>>>>> Stashed changes
             "font_style": "italic",
             "font_weight": null
           },
           "boolean": {
+<<<<<<< Updated upstream
             "color": "#ffbfa6",
+=======
+            "color": "#ffbeb1",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "comment": {
+<<<<<<< Updated upstream
             "color": "#84716b",
+=======
+            "color": "#84716e",
+>>>>>>> Stashed changes
             "font_style": "italic",
             "font_weight": null
           },
           "comment.doc": {
+<<<<<<< Updated upstream
             "color": "#84716b",
+=======
+            "color": "#84716e",
+>>>>>>> Stashed changes
             "font_style": "italic",
             "font_weight": null
           },
           "constant": {
+<<<<<<< Updated upstream
             "color": "#ffbfa6",
+=======
+            "color": "#ffbeb1",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "constructor": {
+<<<<<<< Updated upstream
             "color": "#ffeee6",
+=======
+            "color": "#ffede8",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "embedded": {
+<<<<<<< Updated upstream
             "color": "#f9e0d9",
+=======
+            "color": "#f9e0dd",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "emphasis": {
+<<<<<<< Updated upstream
             "color": "#ff9882",
+=======
+            "color": "#ff9793",
+>>>>>>> Stashed changes
             "font_style": "italic",
             "font_weight": null
           },
           "emphasis.strong": {
+<<<<<<< Updated upstream
             "color": "#ff9882",
+=======
+            "color": "#ff9793",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": 700
           },
           "enum": {
+<<<<<<< Updated upstream
             "color": "#ffeee6",
+=======
+            "color": "#ffede8",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "function": {
-            "color": "#ffa2bd",
+            "color": "#ffa1be",
             "font_style": null,
             "font_weight": null
           },
@@ -271,37 +495,49 @@
             "font_weight": null
           },
           "function.definition": {
-            "color": "#ffa2bd",
+            "color": "#ffa1be",
             "font_style": null,
             "font_weight": null
           },
           "function.method": {
-            "color": "#ffa2bd",
+            "color": "#ffa1be",
             "font_style": null,
             "font_weight": null
           },
           "function.special.definition": {
-            "color": "#ffa2bd",
+            "color": "#ffa1be",
             "font_style": null,
             "font_weight": null
           },
           "hint": {
+<<<<<<< Updated upstream
             "color": "#bca69f",
+=======
+            "color": "#bca6a3",
+>>>>>>> Stashed changes
             "font_style": "italic",
             "font_weight": null
           },
           "keyword": {
+<<<<<<< Updated upstream
             "color": "#ffd3cd",
+=======
+            "color": "#ffd2d3",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "label": {
+<<<<<<< Updated upstream
             "color": "#ffeee6",
+=======
+            "color": "#ffede8",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "link_text": {
-            "color": "#ffa2bd",
+            "color": "#ffa1be",
             "font_style": null,
             "font_weight": null
           },
@@ -311,7 +547,11 @@
             "font_weight": null
           },
           "number": {
+<<<<<<< Updated upstream
             "color": "#ffbfa6",
+=======
+            "color": "#ffbeb1",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
@@ -321,7 +561,11 @@
             "font_weight": null
           },
           "predictive": {
+<<<<<<< Updated upstream
             "color": "#bca69f",
+=======
+            "color": "#bca6a3",
+>>>>>>> Stashed changes
             "font_style": "italic",
             "font_weight": null
           },
@@ -331,7 +575,11 @@
             "font_weight": null
           },
           "primary": {
+<<<<<<< Updated upstream
             "color": "#f9e0d9",
+=======
+            "color": "#f9e0dd",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
@@ -341,17 +589,29 @@
             "font_weight": null
           },
           "punctuation": {
+<<<<<<< Updated upstream
             "color": "#bca69f",
+=======
+            "color": "#bca6a3",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "punctuation.bracket": {
+<<<<<<< Updated upstream
             "color": "#bca69f",
+=======
+            "color": "#bca6a3",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "punctuation.delimiter": {
+<<<<<<< Updated upstream
             "color": "#bca69f",
+=======
+            "color": "#bca6a3",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
@@ -366,22 +626,34 @@
             "font_weight": null
           },
           "string": {
+<<<<<<< Updated upstream
             "color": "#ffd9bb",
+=======
+            "color": "#ffd8c3",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "string.escape": {
+<<<<<<< Updated upstream
             "color": "#ffd3cd",
+=======
+            "color": "#ffd2d3",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "string.regex": {
-            "color": "#e1df87",
+            "color": "#ebd1ff",
             "font_style": null,
             "font_weight": null
           },
           "string.special": {
+<<<<<<< Updated upstream
             "color": "#ffd9bb",
+=======
+            "color": "#ffd8c3",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
@@ -391,42 +663,70 @@
             "font_weight": null
           },
           "tag": {
+<<<<<<< Updated upstream
             "color": "#ffeee6",
+=======
+            "color": "#ffede8",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "text.literal": {
+<<<<<<< Updated upstream
             "color": "#ffd9bb",
+=======
+            "color": "#ffd8c3",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "title": {
-            "color": "#ffa2bd",
+            "color": "#ffa1be",
             "font_style": null,
             "font_weight": 700
           },
           "type": {
+<<<<<<< Updated upstream
             "color": "#ffeee6",
+=======
+            "color": "#ffede8",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "type.builtin": {
+<<<<<<< Updated upstream
             "color": "#f9e0d9",
+=======
+            "color": "#f9e0dd",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "type.interface": {
+<<<<<<< Updated upstream
             "color": "#ffeee6",
+=======
+            "color": "#ffede8",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
           "type.super": {
+<<<<<<< Updated upstream
             "color": "#ffeee6",
+=======
+            "color": "#ffede8",
+>>>>>>> Stashed changes
             "font_style": "italic",
             "font_weight": null
           },
           "variable": {
+<<<<<<< Updated upstream
             "color": "#f9e0d9",
+=======
+            "color": "#f9e0dd",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           },
@@ -441,12 +741,20 @@
             "font_weight": null
           },
           "variable.special": {
+<<<<<<< Updated upstream
             "color": "#f9e0d9",
+=======
+            "color": "#f9e0dd",
+>>>>>>> Stashed changes
             "font_style": "italic",
             "font_weight": null
           },
           "variant": {
+<<<<<<< Updated upstream
             "color": "#ffbfa6",
+=======
+            "color": "#ffbeb1",
+>>>>>>> Stashed changes
             "font_style": null,
             "font_weight": null
           }

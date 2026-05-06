@@ -13,6 +13,7 @@ x-scheme-handler/discord=vesktop.desktop
 application/pdf=org.pwmt.zathura.desktop
 inode/directory=nemo.desktop
 application/x-gnome-saved-search=nemo.desktop
+x-scheme-handler/figma=figma-linux.desktop
 
 [Added Associations]
 x-scheme-handler/http=zen.desktop;

@@ -19,8 +19,5 @@ CHOSEN=$(tmux list-sessions -F "#{session_name}" \
 
 echo "$CHOSEN" > "$SESSION_FILE"
 
-$TERMINAL -- bash -c '
-    SESSION=$(cat "'"$SESSION_FILE"'")
-    rm -f "'"$SESSION_FILE"'"
-    exec tmux attach-session -t "$SESSION"
-'
+TERMINAL="kitty"
+exec $TERMINAL -- fish -i -c "exec tmux attach-session -t '$CHOSEN'"

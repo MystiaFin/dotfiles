@@ -11,7 +11,7 @@ function fish_prompt
 
     # Top line
 		echo -n ""
-    echo -n $border_color"╭─  "
+    echo -n $border_color"╭─ "
     echo -n $path_color"["(prompt_pwd)"]"
 
     # Git integration
