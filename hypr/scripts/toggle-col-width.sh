@@ -1,6 +1,6 @@
 #!/bin/bash
 STATE_FILE="/tmp/hypr-col-toggle"
-DEFAULT=0.7
+DEFAULT=0.8
 
 if [ -f "$STATE_FILE" ]; then
     rm "$STATE_FILE"
