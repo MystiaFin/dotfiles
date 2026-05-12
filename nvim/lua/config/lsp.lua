@@ -80,6 +80,7 @@ vim.lsp.config.qmlls = {
 	},
 }
 
+
 vim.lsp.enable({
 	"lua_ls",
 	"intelephense",
@@ -87,6 +88,7 @@ vim.lsp.enable({
 	"cssls",
 	"tailwindcss",
 	"qmlls",
+	"dartls"
 })
 
 vim.filetype.add({
