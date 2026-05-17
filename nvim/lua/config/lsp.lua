@@ -13,6 +13,10 @@ require("mason-lspconfig").setup({
 	}
 })
 
+vim.lsp.config('*', {
+	capabilities = require('cmp_nvim_lsp').default_capabilities()
+})
+
 vim.diagnostic.config({
 	virtual_text = true,
 	signs = true,
@@ -89,6 +93,9 @@ vim.lsp.enable({
 	"tailwindcss",
 	"qmlls",
 	"dartls"
+	"svelte",
+	"ts_ls",
+	"nil_ls",
 })
 
 vim.filetype.add({

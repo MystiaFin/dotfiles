@@ -14,8 +14,10 @@ application/pdf=org.pwmt.zathura.desktop
 inode/directory=nemo.desktop
 application/x-gnome-saved-search=nemo.desktop
 x-scheme-handler/figma=figma-linux.desktop
+image/jpeg=org.gnome.Shotwell-Viewer.desktop
 
 [Added Associations]
 x-scheme-handler/http=zen.desktop;
 x-scheme-handler/https=zen.desktop;
 x-scheme-handler/chrome=zen.desktop;
+image/jpeg=org.gnome.Shotwell-Viewer.desktop;

@@ -1,16 +1,20 @@
 require("themery").setup({
-  themes = {
-    {
-      name = "Catppuccin Mocha",
-      colorscheme = "catppuccin-mocha",
-    },
-    {
-      name = "Gruvbox Dark",
-      colorscheme = "gruvbox",
-    },
+	themes = {
 		{
-      name = "Gruvbox Baby",
-      colorscheme = "gruvbox-baby",
-    },
-  },
+			name = "Catppuccin Mocha",
+			colorscheme = "catppuccin-mocha",
+		},
+		{
+			name = "Gruvbox Dark",
+			colorscheme = "gruvbox",
+		},
+		{
+			name = "Gruvbox Baby",
+			colorscheme = "gruvbox-baby",
+		},
+		{
+			name = "Everforest",
+			colorscheme = "everforest",
+		}
+	},
 })

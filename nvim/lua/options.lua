@@ -20,6 +20,7 @@ vim.keymap.set("n", "<leader>w", ":w<CR>")
 vim.keymap.set("v", "<C-j>", ":m '>+1<CR>gv=gv", { silent = true })
 vim.keymap.set("v", "<C-k>", ":m '<-2<CR>gv=gv", { silent = true })
 vim.keymap.set("n", "<leader>q", ":cclose<CR>", { silent = true })
+vim.keymap.set("n", "<leader>b", ":Obsidian backlinks<CR>", { silent = true})
 
 -- Telescope
 local builtin = require('telescope.builtin')
@@ -28,20 +29,4 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live gr
 vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
 
--- Neorg
-vim.keymap.set('n', "<leader>n", ":Neorg workspace notes<CR>")
-
 vim.o.winborder = "rounded"
-
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = "markdown",
-  callback = function(ev)
-    local ok, parser = pcall(vim.treesitter.get_parser, ev.buf, "markdown")
-    if ok and parser then
-      parser:set_included_regions({})
-      parser:for_each_child(function(child)
-        child:invalidate()
-      end)
-    end
-  end,
-})

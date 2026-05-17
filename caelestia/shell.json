@@ -4,10 +4,42 @@
             "enabled": false
         }
     },
+    "bar": {
+        "activeWindow": {
+            "compact": false,
+            "inverted": false
+        },
+        "scrollActions": {
+            "volume": true
+        },
+        "tray": {
+            "background": false,
+            "compact": true,
+            "recolour": false
+        }
+    },
     "border": {
         "rounding": 25
     },
     "launcher": {
         "vimKeybinds": true
+    },
+    "notifs": {
+        "openExpanded": false
+    },
+    "utilities": {
+        "toasts": {
+            "nowPlaying": false
+        },
+        "vpn": {
+            "provider": [
+                {
+                    "displayName": "Cloudflare WARP",
+                    "enabled": true,
+                    "interface": "CloudflareWARP",
+                    "name": "warp"
+                }
+            ]
+        }
     }
 }
