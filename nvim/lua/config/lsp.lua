@@ -92,7 +92,7 @@ vim.lsp.enable({
 	"cssls",
 	"tailwindcss",
 	"qmlls",
-	"dartls"
+	"dartls",
 	"svelte",
 	"ts_ls",
 	"nil_ls",
