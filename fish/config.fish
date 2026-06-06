@@ -1,5 +1,6 @@
 ### General Settings
 set -g fish_greeting ""
+set -Ux TERMINAL foot
 
 ### Key Aliases
 alias ll="lsd -l"
@@ -40,3 +41,4 @@ end
 
 fish_add_path /home/mystiafin/.spicetify
 cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
+set -x GEMINI_API_KEY "AIzaSyDneDyCoNzoDc2b_gyTTHUCwtA-bSaNZ_Y"

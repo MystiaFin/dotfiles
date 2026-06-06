@@ -1,4 +1,4 @@
-require("nvim-treesitter").setup({
+require("tree-sitter-manager").setup({
 	ensure_installed = {
 		"lua",
 		"typescript",
@@ -9,15 +9,12 @@ require("nvim-treesitter").setup({
 		"tsx",
 		"php",
 		"svelte",
+		"go",
 	},
-	highlight = {
-		enable = true,
-	},
+	border = nil,
+	highlight = true,
 })
 
-vim.defer_fn(function()
-	vim.cmd("TSEnable highlight")
-end, 100)
 vim.filetype.add({
 	pattern = {
 		[".*%.blade%.php"] = "blade",

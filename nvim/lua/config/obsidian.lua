@@ -9,4 +9,7 @@ require("obsidian").setup({
 	ui = {
 		enable = false
 	},
+	attachments = {
+		folder = "assets/tmp",
+	},
 })

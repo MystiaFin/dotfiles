@@ -9,7 +9,8 @@ require("mason-lspconfig").setup({
 		"tailwindcss",
 		"svelte",
 		"ts_ls",
-		"nil_ls"
+		"nil_ls",
+		"gopls"
 	}
 })
 
@@ -45,6 +46,9 @@ vim.lsp.config.intelephense = {
 		intelephense = {
 			files = { maxSize = 5000000 },
 			environment = { phpVersion = "8.2" },
+			completion = {
+				insertUseDeclaration = true,
+			},
 		},
 	},
 }
@@ -84,6 +88,21 @@ vim.lsp.config.qmlls = {
 	},
 }
 
+vim.lsp.config.gopls = {
+	cmd = { "gopls" },
+	filetypes = { "go", "gomod", "gowork", "gotmpl" },
+	root_markers = { "go.work", "go.mod", ".git" },
+	settings = {
+		gopls = {
+			completeUnimported = true,
+			usePlaceholders = true,
+			analyses = {
+				unusedparams = true,
+			},
+		},
+	},
+}
+
 
 vim.lsp.enable({
 	"lua_ls",
@@ -96,6 +115,7 @@ vim.lsp.enable({
 	"svelte",
 	"ts_ls",
 	"nil_ls",
+	"gopls",
 })
 
 vim.filetype.add({
