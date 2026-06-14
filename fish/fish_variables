@@ -2,4 +2,4 @@
 # VERSION: 3.0
 SETUVAR --export TERMINAL:foot
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/home/mystiafin/\x2espicetify
+SETUVAR fish_user_paths:/home/mystiafin/\x2eopencode/bin\x1e/home/mystiafin/\x2espicetify

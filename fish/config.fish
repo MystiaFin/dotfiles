@@ -41,4 +41,13 @@ end
 
 fish_add_path /home/mystiafin/.spicetify
 cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
-set -x GEMINI_API_KEY "AIzaSyDneDyCoNzoDc2b_gyTTHUCwtA-bSaNZ_Y"
+
+if test -f ~/.config/fish/secrets.fish
+    source ~/.config/fish/secrets.fish
+end
+
+# OpenClaw Completion
+test -f "/home/mystiafin/.openclaw/completions/openclaw.fish"; and source "/home/mystiafin/.openclaw/completions/openclaw.fish"
+
+# opencode
+fish_add_path /home/mystiafin/.opencode/bin
